@@ -1,0 +1,18 @@
+/* Chat bubble style */
+.first-look {
+    position: fixed;
+    bottom: 80px; /* Position above the chat window */
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px; /* Circular bubble */
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
